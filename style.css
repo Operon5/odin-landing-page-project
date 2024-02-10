@@ -68,6 +68,7 @@ button {
     text-align: center;
     padding: 0px 300px;
     justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .upper-row {
@@ -96,4 +97,72 @@ img#image {
 
 .infobox {
     max-width: 150px;
+}
+
+.lower {
+    background-color: #E5E7EB;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source {
+    text-align: right;
+    margin-right: 340px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.bottom {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.action-box {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 1000px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.action-box-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.action {
+    text-align: left;
+    font-weight: normal;
+}
+
+.action-button {
+    align-items: bottom;
+    margin-top: 50px;
+    margin-right: 100px;
+    border: white;
+    border-style: solid;
+    padding: 10px;
+    width: 150px;
 }
