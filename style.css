@@ -6,7 +6,7 @@
 
 .topmost {
     background-color: #1F2937;
-    padding: 0 230px;
+    padding: 0 250px;
     padding-bottom: 80px;
 }
 
@@ -66,7 +66,7 @@ button {
 
 .upper {
     text-align: center;
-    padding: 0px 230px;
+    padding: 0px 300px;
     justify-content: space-between;
 }
 
@@ -85,14 +85,15 @@ button {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 img#image {
     width: 500px;
+    height: auto;
 }
 
-.info-text {
-    max-width: 200px;
+.infobox {
+    max-width: 150px;
 }
