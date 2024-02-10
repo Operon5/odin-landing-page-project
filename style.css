@@ -152,12 +152,13 @@ img#image {
     padding: 30px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .action {
     text-align: left;
     font-weight: normal;
+    font-size: 18px;
 }
 
 .action-button {
